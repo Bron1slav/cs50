@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include "cs50.h"
 #include <ctype.h>
-//// Hello everyone ,now you are reading my code that i wrote during week 1(C)
-//// p.s. That was pretty easy "week" but i was kinda bored in the starting day ,due to my other stuff, 
-//// hence I completed it within 2 days :))))
 
 int main(void) 
 {                                        
