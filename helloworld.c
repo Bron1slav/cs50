@@ -30,8 +30,8 @@ int main(void)
 
 
 
-//// The next lines of code have been made to sum up everything learned.
-//// It is a little bit long code, but I tried to do everything working good.
+// The next lines of code have been made to sum up everything learned.
+// It is a little bit long code, but I tried to do everything working good.
 
 int main(void)
 {
@@ -56,7 +56,15 @@ int main(void)
         printf("   WRONG\n");
         score_count--;
     }
-    printf("Your current score is %i points \n",score_count);
+   
+    if(score_count==1 || score_count== -1 )
+    {
+        printf("Your current score: %i point \n",score_count);
+    }
+    else
+    {
+        printf("Your current score: %i points \n",score_count);
+    }
 
 
     printf("The second question is:\nWhat is your name?\nA.Jonh\nB.Luke\nC.Jamal\n");
@@ -78,7 +86,15 @@ int main(void)
         printf("   WRONG\n");
         score_count--;
     }
-    printf("Your current score is %i points \n",score_count);
+
+    if(score_count==1 || score_count== -1  )
+    {
+        printf("Your current score: %i point \n",score_count);
+    }
+    else
+    {
+        printf("Your current score: %i points \n",score_count);
+    }
 
 
 
@@ -101,7 +117,17 @@ int main(void)
         printf("   WRONG\n");
         score_count--;
     }
-    printf("Your score is %i points \n",score_count);
+
+    printf("That is the end of the 'QUIZ'\n");
+
+    if(score_count>=2)
+    {
+        printf("CONGRATULATIONS!!!!!\nYour final score: %i point \n",score_count);
+    }
+    else
+    {
+        printf("Your final score: %i points \nBetter luck next time!!!",score_count);
+    }
+
     return 0;
 }
-
